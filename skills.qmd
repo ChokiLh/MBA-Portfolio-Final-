@@ -1,0 +1,62 @@
+---
+title: "Skills & Certifications"
+page-layout: article
+---
+
+## Skills Overview
+
+My MBA program, professional experiences, and independent coursework have equipped me with a blend of business, analytical, and digital capabilities.
+
+---
+
+## Business Skills
+
+- Operations management and process improvement  
+- Marketing strategy and customer insight development  
+- HR basics and people-centered approaches  
+- Analytical thinking and problem-solving  
+
+---
+
+## Technical Skills
+
+- Microsoft Excel (intermediate functions, lookups, cleaning, formatting)  
+- Quarto, Markdown, GitHub Pages  
+- Data analysis fundamentals  
+- Canva for presentations and visuals  
+- CapCut for simple video editing  
+
+---
+
+## Certifications
+
+###  Professional Certifications & Micro-Credentials
+
+<div class="cert-card">
+
+####  SQL Certificate of Completion  
+*Completed in 2025*  
+Understanding of relational databases, table creation, and SQL query writing.  
+[📄 **View Certificate**](files/Choki Lhamo_2350365_SQL Certificate.pdf){target="_blank"}
+
+---
+
+####  Excel Formulas and Functions Quick Tips — *LinkedIn Learning*  
+*Issued May 2025*  
+Strengthened Excel skills: formulas, functions, and efficient data workflows.  
+[📄 **View Certificate**](files/Choki Lhamo_2350365_Excel Certificate.pdf){target="_blank"}
+
+---
+
+#### Introduction to Data Analytics — *Simplilearn SkillUp*  
+*Completed June 2025*  
+Understanding of analytics foundations, data exploration, dashboards, and business insights.  
+
+[📄 **View Certificate**](files/Choki Lhamo_2350365_Data Analytics Certificate.pdf){target="_blank"}
+
+---
+
+####  Digital Marketing Associate (CDMA)  
+Covers digital channels, customer engagement, and foundational marketing analytics.
+
+---

@@ -1,0 +1,177 @@
+/* -------------------------------------------
+   Global Color Palette (inspired by your photo)
+-------------------------------------------- */
+:root {
+  /* Autumn / sunset tones */
+  --accent-orange: #e58633;
+  --accent-gold:   #f2b754;
+  --accent-olive:  #b7b26a;
+  --accent-deep:   #7c3f3a;
+
+  --bg-soft:       #fff8f0;
+  --card-bg:       #ffffff;
+  --card-shadow:   rgba(0, 0, 0, 0.08);
+}
+
+/* -------------------------------------------
+   Page Style
+-------------------------------------------- */
+body {
+  font-family: system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--bg-soft);
+  line-height: 1.6;
+  padding-bottom: 3rem;
+}
+
+/* -------------------------------------------
+   Navbar – gradient bar with white text
+-------------------------------------------- */
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    var(--accent-orange),
+    var(--accent-gold),
+    var(--accent-olive)
+  ) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fffde7 !important;
+}
+
+/* -------------------------------------------
+   Headings
+-------------------------------------------- */
+h1, h2, h3, h4 {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 1.8rem;
+  border-left: 5px solid var(--accent-orange);
+  padding-left: 10px;
+}
+
+/* -------------------------------------------
+   Landing Page Card (Martin Boehme style)
+-------------------------------------------- */
+
+.landing-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.landing-card {
+  max-width: 720px;
+  width: 100%;
+  background-color: var(--card-bg);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px var(--card-shadow);
+  padding: 2.2rem 2.6rem 2.4rem;
+  text-align: center;
+}
+
+.landing-header {
+  margin-bottom: 1.2rem;
+}
+
+.landing-name {
+  font-size: 2.2rem;
+  margin: 0;
+  color: var(--accent-deep);
+}
+
+.landing-tagline {
+  margin: 0.35rem 0 0;
+  color: #666666;
+  font-size: 0.98rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.landing-avatar-wrap {
+  margin: 1.8rem auto 1.2rem;
+}
+
+.landing-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  border: 4px solid #ffffff;
+}
+
+.landing-intro {
+  max-width: 540px;
+  margin: 0 auto 1.8rem;
+  color: #444444;
+  font-size: 1.02rem;
+}
+
+/* Pill-style links under the avatar */
+.landing-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.landing-pill {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #fafafa;
+  color: #444444;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.18s ease, transform 0.18s ease,
+              box-shadow 0.18s ease;
+}
+
+.landing-pill:hover {
+  background-color: #fff4e3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px var(--card-shadow);
+}
+
+/* -------------------------------------------
+   Project Cards (if you use them)
+-------------------------------------------- */
+.project-card {
+  background: var(--card-bg);
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px var(--card-shadow);
+  border-left: 6px solid var(--accent-orange);
+}
+
+/* -------------------------------------------
+   Responsive tweaks
+-------------------------------------------- */
+@media (max-width: 640px) {
+  .landing-card {
+    padding: 1.8rem 1.4rem 2rem;
+  }
+
+  .landing-name {
+    font-size: 1.9rem;
+  }
+
+  .landing-avatar {
+    width: 120px;
+    height: 120px;
+  }
+}

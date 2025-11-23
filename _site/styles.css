@@ -1,0 +1,208 @@
+/* ----------------------------------------------------
+   OPTION B — Rose + Mauve + Berry Aesthetic Theme
+   With Hover Effects + Animated Avatar Glow + Fade-In
+----------------------------------------------------- */
+
+/* -------------------------------------------
+   Color Palette
+-------------------------------------------- */
+:root {
+  --rose: #d88fa8;        /* Soft Rose */
+  --mauve: #b57ab4;       /* Mauve / lilac */
+  --berry: #7a3e65;       /* Deep Berry */
+  --cream: #fff7fb;       /* Soft off-white */
+  --card-bg: #ffffff;
+  --shadow: rgba(0,0,0,0.08);
+}
+
+/* -------------------------------------------
+   Smooth Scroll
+-------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------------------------------
+   Fade-In Animation
+-------------------------------------------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.9s ease-out;
+}
+
+/* -------------------------------------------
+   Page Style
+-------------------------------------------- */
+body {
+  font-family: system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--cream);
+  line-height: 1.65;
+  padding-bottom: 3rem;
+  color: #333;
+}
+
+/* -------------------------------------------
+   Navbar (Rose ➜ Mauve Gradient)
+-------------------------------------------- */
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    var(--rose),
+    var(--mauve)
+  ) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffeef8 !important;
+}
+
+/* -------------------------------------------
+   Headings
+-------------------------------------------- */
+h1, h2, h3, h4 {
+  color: var(--berry);
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-left: 5px solid var(--rose);
+  padding-left: 10px;
+}
+
+/* -------------------------------------------
+   Landing Page Card
+-------------------------------------------- */
+
+.landing-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.landing-card {
+  max-width: 720px;
+  width: 100%;
+  background-color: var(--card-bg);
+  border-radius: 22px;
+  box-shadow: 0 8px 24px var(--shadow);
+  padding: 2.4rem 2.8rem;
+  text-align: center;
+}
+
+/* -------------------------------------------
+   Avatar with Glow Animation
+-------------------------------------------- */
+
+@keyframes pulseGlow {
+  0%   { box-shadow: 0 0 0px rgba(181, 122, 180, 0.35); }
+  50%  { box-shadow: 0 0 22px rgba(181, 122, 180, 0.55); }
+  100% { box-shadow: 0 0 0px rgba(181, 122, 180, 0.35); }
+}
+
+.landing-avatar-wrap {
+  margin: 1.8rem auto 1.2rem;
+}
+
+.landing-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  animation: pulseGlow 3.2s ease-in-out infinite;
+}
+
+/* -------------------------------------------
+   Titles + Tagline
+-------------------------------------------- */
+.landing-name {
+  font-size: 2.3rem;
+  margin: 0;
+  color: var(--berry);
+  font-weight: 800;
+}
+
+.landing-tagline {
+  margin-top: .4rem;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--mauve);
+}
+
+.landing-intro {
+  max-width: 540px;
+  margin: 1rem auto 2rem;
+  color: #444;
+  font-size: 1.08rem;
+}
+
+/* -------------------------------------------
+   Portfolio Links (Pill Style)
+-------------------------------------------- */
+.landing-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .7rem;
+}
+
+.landing-pill {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: var(--rose);
+  color: #fff;
+  transition: 0.25s ease;
+}
+
+.landing-pill:hover {
+  background-color: var(--berry);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0px 4px 12px rgba(122, 62, 101, 0.3);
+}
+
+/* -------------------------------------------
+   Project Cards
+-------------------------------------------- */
+.project-card {
+  background: var(--card-bg);
+  padding: 1.4rem 1.7rem;
+  margin-bottom: 1.6rem;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px var(--shadow);
+  border-left: 6px solid var(--rose);
+}
+
+/* -------------------------------------------
+   Responsive
+-------------------------------------------- */
+@media (max-width: 640px) {
+  .landing-card {
+    padding: 2rem 1.3rem;
+  }
+
+  .landing-avatar {
+    width: 130px;
+    height: 130px;
+  }
+
+  .landing-name {
+    font-size: 1.9rem;
+  }
+}

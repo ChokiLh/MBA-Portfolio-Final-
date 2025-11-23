@@ -1,0 +1,105 @@
+---
+title: "Projects & Case Studies"
+page-layout: article
+---
+
+## Overview
+
+Here are a few projects from my MBA program that show how I think about **operations**, **digital transformation**, and **analytics** in real organisations and everyday life.
+
+<div class="projects-intro">
+  I enjoy taking something messy — a process, a workflow, or a dataset — and making it cleaner,
+  faster, and easier for people to use. These case studies are a sample of that journey so far.
+</div>
+
+---
+
+## 🧺 Laundry Process Redesign – Home Operations Case (OPMT 620)
+
+<div class="project-card">
+
+<div class="project-meta">
+<strong>Course:</strong> OPMT 620 – Operations Management  
+<strong>Type:</strong> Individual case study • Flow process chart • Lean waste analysis  
+<strong>Tools:</strong> Flow process chart, waste analysis, process redesign
+</div>
+
+### Project Snapshot
+
+I analysed my own home laundry routine as if it were a small “operations system.” I documented the **current-state process** using a flow process chart, tracking every operation, transport, delay, and inspection step, along with the **time**, **distance walked**, and **cost implications**. The original process took **138 minutes** and required **670 feet** of walking around the house. :contentReference[oaicite:0]{index=0}  
+
+The key wastes I identified were:
+
+- Excessive transportation (clothes moving between multiple rooms)  
+- Waiting time during machine cycles  
+- Over-processing and repeated handling (sorting and stain inspection done separately)  
+- Inefficient layout and lack of standardization
+
+### Improvements & Results
+
+I then designed a **future-state process** that:
+
+- Added laundry hampers in each room to reduce trips  
+- Combined sorting and stain inspection into a single step  
+- Used a wheeled laundry basket and detergent pods  
+- Placed the washer and dryer side-by-side with a nearby folding station  
+
+These changes cut total cycle time to **75 minutes** and reduced walking distance to **305 feet**, saving **63 minutes** and **365 feet** of movement per full laundry cycle, while making the work more ergonomic. :contentReference[oaicite:1]{index=1}  
+
+[📄 **View full report**](files/OPMT620_05_Choki_Lhamo_Case2.pdf){target="_blank"}
+
+</div>
+
+---
+
+## 🤖 UiPath & BMO – Banking Automation Case Study (CMPT 641)
+
+<div class="project-card project-card-alt">
+
+<div class="project-meta">
+<strong>Course:</strong> CMPT 641 – Digital Transformation  
+<strong>Type:</strong> Individual written assignment • Vendor analysis • Financial services case  
+<strong>Tools:</strong> Secondary research, vendor comparison, value chain & benefits analysis
+</div>
+
+### Project Snapshot
+
+For this assignment, I explored how **UiPath**, a leading robotic process automation (RPA) platform, helps the **Bank of Montreal (BMO)** modernise operations. I started with a vendor scan, comparing UiPath to competitors such as Microsoft Power Automate, Automation Anywhere, and Blue Prism, and summarised why UiPath holds a leading market share in RPA and strong analyst recognition. :contentReference[oaicite:2]{index=2}  
+
+### Problem & Solution
+
+BMO faced:
+
+- Heavy manual workloads in compliance reporting, transaction monitoring, and testing  
+- High operational costs and slower turnaround times  
+- Fragmented legacy systems across different jurisdictions  
+
+Working with UiPath and Deloitte, BMO built an **Automation Centre of Excellence (CoE)** and deployed unattended and attended bots for processes like loan origination, KYC/AML checks, and reporting. Bots were orchestrated via UiPath Studio and Orchestrator, integrated with Microsoft 365, Oracle, and internal banking systems. :contentReference[oaicite:3]{index=3}  
+
+### Impact
+
+The case highlighted how automation:
+
+- Delivered **millions of dollars in value** through labour savings and cost avoidance  
+- Achieved **20–60% productivity improvements** in some credit and back-office workflows  
+- Reduced error rates and improved compliance audit trails  
+- Freed employees to focus on more analytical and customer-facing work  
+
+[📄 **View full report**](files/UiPath_BMO_Digital_Transformation_Case.pdf){target="_blank"}
+
+</div>
+
+---
+
+## 🌱 In-Progress & Future Projects
+
+<div class="project-card project-card-soft">
+
+I am continuing to add new work from courses such as **marketing**, **HR analytics**, and **data-driven decision making**. Upcoming additions may include:
+
+- A digital marketing campaign analysis for a streaming platform  
+- An HR analytics/LLM project on inclusion and policy drafting  
+- A value stream mapping exercise for a service environment
+
+As my MBA progresses, this page will grow into a mini “project library” that shows how my skills evolve over time.
+</div>

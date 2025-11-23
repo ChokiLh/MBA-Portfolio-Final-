@@ -1,0 +1,25 @@
+project:
+  type: website
+
+execute:
+  enabled: false    
+  
+website:
+  title: "Choki Lhamo – MBA Portfolio"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Resume
+        href: resume.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Skills
+        href: skills.qmd
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
