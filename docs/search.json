@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills & Certifications",
+    "section": "",
+    "text": "My MBA program, professional experiences, and independent coursework have equipped me with a blend of business, analytical, and digital capabilities."
+  },
+  {
+    "objectID": "skills.html#skills-overview",
+    "href": "skills.html#skills-overview",
+    "title": "Skills & Certifications",
+    "section": "",
+    "text": "My MBA program, professional experiences, and independent coursework have equipped me with a blend of business, analytical, and digital capabilities."
+  },
+  {
     "objectID": "skills.html#business-skills",
     "href": "skills.html#business-skills",
     "title": "Skills & Certifications",
@@ -14,11 +28,11 @@
     "text": "Technical Skills\n\nMicrosoft Excel (intermediate functions, lookups, cleaning, formatting)\n\nQuarto, Markdown, GitHub Pages\n\nData analysis fundamentals\n\nCanva for presentations and visuals\n\nCapCut for simple video editing"
   },
   {
-    "objectID": "skills.html#communication",
-    "href": "skills.html#communication",
-    "title": "Skills",
-    "section": "Communication",
-    "text": "Communication\n\nAPA 7th edition\n\nPresentations\n\nTeam collaboration"
+    "objectID": "skills.html#certifications",
+    "href": "skills.html#certifications",
+    "title": "Skills & Certifications",
+    "section": "Certifications",
+    "text": "Certifications\n\nProfessional Certifications & Micro-Credentials\n\n\nSQL Certificate of Completion\nCompleted in 2025\nUnderstanding of relational databases, table creation, and SQL query writing.\n📄 View Certificate\n\n\n\nExcel Formulas and Functions Quick Tips — LinkedIn Learning\nIssued May 2025\nStrengthened Excel skills: formulas, functions, and efficient data workflows.\n📄 View Certificate\n\n\n\nIntroduction to Data Analytics — Simplilearn SkillUp\nCompleted June 2025\nUnderstanding of analytics foundations, data exploration, dashboards, and business insights.\n📄 View Certificate\n\n\n\nDigital Marketing Associate (CDMA)\nCovers digital channels, customer engagement, and foundational marketing analytics."
   },
   {
     "objectID": "projects.html",
@@ -35,18 +49,25 @@
     "text": "Here are a few projects from my MBA program that show how I think about operations, digital transformation, and analytics in real organisations and everyday life.\n\nI enjoy taking something messy — a process, a workflow, or a dataset — and making it cleaner, faster, and easier for people to use. These case studies are a sample of that journey so far."
   },
   {
-    "objectID": "projects.html#project-1-title",
-    "href": "projects.html#project-1-title",
+    "objectID": "projects.html#laundry-process-redesign-home-operations-case-opmt-620",
+    "href": "projects.html#laundry-process-redesign-home-operations-case-opmt-620",
     "title": "Projects & Case Studies",
-    "section": "Project 1: [Title]",
-    "text": "Project 1: [Title]\nCourse:\n- Goal:\n- My contribution:\n- Outcome:"
+    "section": "🧺 Laundry Process Redesign – Home Operations Case (OPMT 620)",
+    "text": "🧺 Laundry Process Redesign – Home Operations Case (OPMT 620)\n\n\nCourse: OPMT 620 – Operations Management\nType: Individual case study • Flow process chart • Lean waste analysis\nTools: Flow process chart, waste analysis, process redesign\n\n\nProject Snapshot\nI analysed my own home laundry routine as if it were a small “operations system.” I documented the current-state process using a flow process chart, tracking every operation, transport, delay, and inspection step, along with the time, distance walked, and cost implications. The original process took 138 minutes and required 670 feet of walking around the house. :contentReferenceoaicite:0\nThe key wastes I identified were:\n\nExcessive transportation (clothes moving between multiple rooms)\n\nWaiting time during machine cycles\n\nOver-processing and repeated handling (sorting and stain inspection done separately)\n\nInefficient layout and lack of standardization\n\n\n\nImprovements & Results\nI then designed a future-state process that:\n\nAdded laundry hampers in each room to reduce trips\n\nCombined sorting and stain inspection into a single step\n\nUsed a wheeled laundry basket and detergent pods\n\nPlaced the washer and dryer side-by-side with a nearby folding station\n\nThese changes cut total cycle time to 75 minutes and reduced walking distance to 305 feet, saving 63 minutes and 365 feet of movement per full laundry cycle, while making the work more ergonomic. :contentReferenceoaicite:1\n📄 View full report"
   },
   {
-    "objectID": "projects.html#project-2-title",
-    "href": "projects.html#project-2-title",
+    "objectID": "projects.html#uipath-bmo-banking-automation-case-study-cmpt-641",
+    "href": "projects.html#uipath-bmo-banking-automation-case-study-cmpt-641",
     "title": "Projects & Case Studies",
-    "section": "Project 2: [Title]",
-    "text": "Project 2: [Title]\nCourse:\n- Goal:\n- My contribution:\n- Outcome:"
+    "section": "🤖 UiPath & BMO – Banking Automation Case Study (CMPT 641)",
+    "text": "🤖 UiPath & BMO – Banking Automation Case Study (CMPT 641)\n\n\nCourse: CMPT 641 – Digital Transformation\nType: Individual written assignment • Vendor analysis • Financial services case\nTools: Secondary research, vendor comparison, value chain & benefits analysis\n\n\nProject Snapshot\nFor this assignment, I explored how UiPath, a leading robotic process automation (RPA) platform, helps the Bank of Montreal (BMO) modernise operations. I started with a vendor scan, comparing UiPath to competitors such as Microsoft Power Automate, Automation Anywhere, and Blue Prism, and summarised why UiPath holds a leading market share in RPA and strong analyst recognition. :contentReferenceoaicite:2\n\n\nProblem & Solution\nBMO faced:\n\nHeavy manual workloads in compliance reporting, transaction monitoring, and testing\n\nHigh operational costs and slower turnaround times\n\nFragmented legacy systems across different jurisdictions\n\nWorking with UiPath and Deloitte, BMO built an Automation Centre of Excellence (CoE) and deployed unattended and attended bots for processes like loan origination, KYC/AML checks, and reporting. Bots were orchestrated via UiPath Studio and Orchestrator, integrated with Microsoft 365, Oracle, and internal banking systems. :contentReferenceoaicite:3\n\n\nImpact\nThe case highlighted how automation:\n\nDelivered millions of dollars in value through labour savings and cost avoidance\n\nAchieved 20–60% productivity improvements in some credit and back-office workflows\n\nReduced error rates and improved compliance audit trails\n\nFreed employees to focus on more analytical and customer-facing work\n\n📄 View full report"
+  },
+  {
+    "objectID": "projects.html#in-progress-future-projects",
+    "href": "projects.html#in-progress-future-projects",
+    "title": "Projects & Case Studies",
+    "section": "🌱 In-Progress & Future Projects",
+    "text": "🌱 In-Progress & Future Projects\n\nI am continuing to add new work from courses such as marketing, HR analytics, and data-driven decision making. Upcoming additions may include:\n\nA digital marketing campaign analysis for a streaming platform\n\nAn HR analytics/LLM project on inclusion and policy drafting\n\nA value stream mapping exercise for a service environment\n\nAs my MBA progresses, this page will grow into a mini “project library” that shows how my skills evolve over time."
   },
   {
     "objectID": "contact.html",
@@ -56,25 +77,32 @@
     "text": "Thank you for visiting my MBA portfolio. I’m always happy to connect about:\n\nInternship or entry-level opportunities in digital transformation, marketing, or operations\nGroup projects or collaborations that involve data, process improvement, or HR topics\nConversations about studying, working, and building a career in Canada"
   },
   {
-    "objectID": "contact.html#contact-me",
-    "href": "contact.html#contact-me",
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
     "title": "Contact",
     "section": "",
-    "text": "Thank you for visiting my MBA portfolio!\n\nEmail: your.email@example.com\n\nLinkedIn: (add your link)\n\nFeel free to reach out for opportunities or collaboration."
+    "text": "Thank you for visiting my MBA portfolio. I’m always happy to connect about:\n\nInternship or entry-level opportunities in digital transformation, marketing, or operations\nGroup projects or collaborations that involve data, process improvement, or HR topics\nConversations about studying, working, and building a career in Canada"
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "This page summarizes my education and experience. I will add a PDF version later."
+    "objectID": "contact.html#how-to-reach-me",
+    "href": "contact.html#how-to-reach-me",
+    "title": "Contact",
+    "section": "How to Reach Me",
+    "text": "How to Reach Me\n\nEmail: chokilha9@gmail.com\nLinkedIn: Choki Lhamo\n\nI check email and LinkedIn regularly and do my best to respond within a few days."
   },
   {
-    "objectID": "resume.html#resume-overview",
-    "href": "resume.html#resume-overview",
+    "objectID": "contact.html#a-quick-note",
+    "href": "contact.html#a-quick-note",
+    "title": "Contact",
+    "section": "A Quick Note",
+    "text": "A Quick Note\nIf you’d like to get in touch about a specific opportunity, feel free to share:\n\nA short description of the role or project\n\nAny timeline or key dates\n\nHow my background caught your attention\n\nI look forward to hearing from you and exploring how we might work together."
+  },
+  {
+    "objectID": "resume.html#resume-overview-1",
+    "href": "resume.html#resume-overview-1",
     "title": "Resume",
-    "section": "",
-    "text": "This page summarizes my education and experience. I will add a PDF version later."
+    "section": "Resume Overview",
+    "text": "Resume Overview\nThis page summarizes my education and experience. You can also download a full PDF version of my resume below.\n📄 Download Full Resume (PDF)"
   },
   {
     "objectID": "resume.html#education",
@@ -102,7 +130,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "&lt;div class=\"landing-header\"&gt;\n  &lt;h1 class=\"landing-name\"&gt;Choki Lhamo&lt;/h1&gt;\n  &lt;p class=\"landing-tagline\"&gt;MBA Portfolio · University Canada West&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;div class=\"landing-avatar-wrap\"&gt;\n  &lt;img src=\"files/choki.jpg\" alt=\"Choki Lhamo\" class=\"landing-avatar\"&gt;\n&lt;/div&gt;\n\n&lt;p class=\"landing-intro\"&gt;\n  I’m an MBA candidate (2024–2026) interested in digital transformation, marketing,\n  and operations. I enjoy turning complex problems into clear, human-friendly solutions.\n&lt;/p&gt;\n\n&lt;div class=\"landing-links\"&gt;\n  &lt;a class=\"landing-pill\" href=\"index.qmd\"&gt;Home&lt;/a&gt;\n  &lt;a class=\"landing-pill\" href=\"resume.qmd\"&gt;Resume&lt;/a&gt;\n  &lt;a class=\"landing-pill\" href=\"projects.qmd\"&gt;Projects&lt;/a&gt;\n  &lt;a class=\"landing-pill\" href=\"skills.qmd\"&gt;Skills&lt;/a&gt;\n  &lt;a class=\"landing-pill\" href=\"contact.qmd\"&gt;Contact&lt;/a&gt;\n&lt;/div&gt;"
+    "text": "MBA Portfolio · University Canada West\n\n\n\n\n\nChoki Lhamo\n\n\n\n\nMBA candidate focusing on digital transformation, marketing, and operations. Passionate about turning complex problems into clear, people-friendly solutions.\n\n\nHome Resume Projects Skills Contact"
   },
   {
     "objectID": "index.html#welcome",
@@ -112,13 +140,6 @@
     "text": "Welcome\nHi! My name is Choki Lhamo and I am a MBA candidate in University Canada West with an international exposure in the fields of education, media, and community relations. My stay and job in Bhutan, Thailand, and Canada have gifted me a global perspective on leadership, collaboration, and problem-solving. The different cultures I interacted with in my academic and professional life have developed my flexibility, communication, and organization skills which in turn made me able to perform well in multi-cultural and interdisciplinary settings.\nI plan to use the knowledge and skills gained from my MBA studies to become an expert in strategic and analytical thinking so that I could better see how data-driven insights and inclusive management practices can together enhance operational efficiency. Besides, I would like to focus on the avenues through which innovation and ethical leadership can create sustainable values for both organizations and their communities.\nI want to put my learning process into practice to create fair systems that equips people, unite them in a better way, and eventually lead to an impact that is both social and organizational but is also meaningful.\nThis website is my MBA portfolio where I share my projects, assignments, skills, and academic progress."
   },
   {
-    "objectID": "index.html#explore-my-portfolio",
-    "href": "index.html#explore-my-portfolio",
-    "title": "Home",
-    "section": "Explore My Portfolio",
-    "text": "Explore My Portfolio\nReady to take a closer look? Start here:\n\nView my Resume – Education, experience, and core strengths\n\nExplore Projects – Selected MBA case studies and assignments\n\nSkills & Tools – Business, analytical, and digital capabilities\n\nContact Me – Let’s connect about roles or collaborations"
-  },
-  {
     "objectID": "index.html#what-im-working-toward",
     "href": "index.html#what-im-working-toward",
     "title": "Home",
@@ -126,87 +147,10 @@
     "text": "What I’m Working Toward\n\nStrategic thinker: Using data and frameworks (like value chains, VSMs, and HR analytics) to support better decisions.\n\nDigital problem-solver: Curious about automation, AI, and tools that remove friction from everyday work.\n\nInclusive collaborator: I care about fair systems, diverse teams, and respectful workplaces."
   },
   {
-    "objectID": "contact.html#lets-connect",
-    "href": "contact.html#lets-connect",
-    "title": "Contact",
-    "section": "",
-    "text": "Thank you for visiting my MBA portfolio. I’m always happy to connect about:\n\nInternship or entry-level opportunities in digital transformation, marketing, or operations\nGroup projects or collaborations that involve data, process improvement, or HR topics\nConversations about studying, working, and building a career in Canada"
-  },
-  {
-    "objectID": "contact.html#how-to-reach-me",
-    "href": "contact.html#how-to-reach-me",
-    "title": "Contact",
-    "section": "How to Reach Me",
-    "text": "How to Reach Me\n\nEmail: chokilha9@gmail.com\nLinkedIn: Choki Lhamo\n\nI check email and LinkedIn regularly and do my best to respond within a few days."
-  },
-  {
-    "objectID": "contact.html#a-quick-note",
-    "href": "contact.html#a-quick-note",
-    "title": "Contact",
-    "section": "A Quick Note",
-    "text": "A Quick Note\nIf you’d like to get in touch about a specific opportunity, feel free to share:\n\nA short description of the role or project\n\nAny timeline or key dates\n\nHow my background caught your attention\n\nI look forward to hearing from you and exploring how we might work together."
-  },
-  {
-    "objectID": "skills.html",
-    "href": "skills.html",
-    "title": "Skills & Certifications",
-    "section": "",
-    "text": "My MBA program, professional experiences, and independent coursework have equipped me with a blend of business, analytical, and digital capabilities."
-  },
-  {
-    "objectID": "skills.html#skills-overview",
-    "href": "skills.html#skills-overview",
-    "title": "Skills & Certifications",
-    "section": "",
-    "text": "My MBA program, professional experiences, and independent coursework have equipped me with a blend of business, analytical, and digital capabilities."
-  },
-  {
-    "objectID": "skills.html#certifications",
-    "href": "skills.html#certifications",
-    "title": "Skills & Certifications",
-    "section": "Certifications",
-    "text": "Certifications\n\nProfessional Certifications & Micro-Credentials\n\n\nSQL Certificate of Completion\nCompleted in 2025\nUnderstanding of relational databases, table creation, and SQL query writing.\n📄 View Certificate\n\n\n\nExcel Formulas and Functions Quick Tips — LinkedIn Learning\nIssued May 2025\nStrengthened Excel skills: formulas, functions, and efficient data workflows.\n📄 View Certificate\n\n\n\nIntroduction to Data Analytics — Simplilearn SkillUp\nCompleted June 2025\nUnderstanding of analytics foundations, data exploration, dashboards, and business insights.\n📄 View Certificate\n\n\n\nDigital Marketing Associate (CDMA)\nCovers digital channels, customer engagement, and foundational marketing analytics."
-  },
-  {
-    "objectID": "skills.html#communication-collaboration",
-    "href": "skills.html#communication-collaboration",
-    "title": "Skills & Certifications",
-    "section": "Communication & Collaboration",
-    "text": "Communication & Collaboration\n\nAPA 7th edition academic writing\n\nPresentation skills and report writing\n\nTeam collaboration in diverse cultural contexts"
-  },
-  {
-    "objectID": "skills.html#certifications-1",
-    "href": "skills.html#certifications-1",
-    "title": "Skills & Certifications",
-    "section": "Certifications",
-    "text": "Certifications\n\n📜 Professional Certifications & Micro-Credentials\n\n\n🟣 SQL Certificate of Completion\nCompleted in 2025\nUnderstanding of relational databases, table creation, and SQL query writing.\n📄 View Certificate\n\n\n\nExcel Formulas and Functions Quick Tips — LinkedIn Learning\nIssued May 2025\nStrengthened Excel skills: formulas, functions, and efficient data workflows.\n📄 View Certificate\n\n\n\nDigital Marketing Associate (CDMA)\nCovers digital channels, customer engagement, and foundational marketing analytics.\n\n\n\nData Analytics Certificate\nIntroduces dashboards, data patterns, basic statistical thinking, and decision-making.\n\n\n\nSQL Certificate of Completion\nCompleted in 2025\nDemonstrated understanding of relational databases, query writing, table creation, and foundational data analysis using SQL.\n(You can upload the PDF later if you want a “View Certificate” link.)\nExcel Formulas and Functions Quick Tips — LinkedIn Learning\nIssued May 2025\nStrengthened essential Excel skills, including data manipulation, formulas, and efficient spreadsheet workflows.\nDigital Marketing Associate (CDMA)\nFoundations of digital marketing, customer engagement, online channels, and campaign strategy.\nData Analytics Certificate\nExposure to analytics concepts, dashboards, and data-driven decision-making."
-  },
-  {
-    "objectID": "projects.html#laundry-process-redesign-home-operations-case-opmt-620",
-    "href": "projects.html#laundry-process-redesign-home-operations-case-opmt-620",
-    "title": "Projects & Case Studies",
-    "section": "🧺 Laundry Process Redesign – Home Operations Case (OPMT 620)",
-    "text": "🧺 Laundry Process Redesign – Home Operations Case (OPMT 620)\n\n\nCourse: OPMT 620 – Operations Management\nType: Individual case study • Flow process chart • Lean waste analysis\nTools: Flow process chart, waste analysis, process redesign\n\n\nProject Snapshot\nI analysed my own home laundry routine as if it were a small “operations system.” I documented the current-state process using a flow process chart, tracking every operation, transport, delay, and inspection step, along with the time, distance walked, and cost implications. The original process took 138 minutes and required 670 feet of walking around the house. :contentReferenceoaicite:0\nThe key wastes I identified were:\n\nExcessive transportation (clothes moving between multiple rooms)\n\nWaiting time during machine cycles\n\nOver-processing and repeated handling (sorting and stain inspection done separately)\n\nInefficient layout and lack of standardization\n\n\n\nImprovements & Results\nI then designed a future-state process that:\n\nAdded laundry hampers in each room to reduce trips\n\nCombined sorting and stain inspection into a single step\n\nUsed a wheeled laundry basket and detergent pods\n\nPlaced the washer and dryer side-by-side with a nearby folding station\n\nThese changes cut total cycle time to 75 minutes and reduced walking distance to 305 feet, saving 63 minutes and 365 feet of movement per full laundry cycle, while making the work more ergonomic. :contentReferenceoaicite:1\n📄 View full report"
-  },
-  {
-    "objectID": "projects.html#uipath-bmo-banking-automation-case-study-cmpt-641",
-    "href": "projects.html#uipath-bmo-banking-automation-case-study-cmpt-641",
-    "title": "Projects & Case Studies",
-    "section": "🤖 UiPath & BMO – Banking Automation Case Study (CMPT 641)",
-    "text": "🤖 UiPath & BMO – Banking Automation Case Study (CMPT 641)\n\n\nCourse: CMPT 641 – Digital Transformation\nType: Individual written assignment • Vendor analysis • Financial services case\nTools: Secondary research, vendor comparison, value chain & benefits analysis\n\n\nProject Snapshot\nFor this assignment, I explored how UiPath, a leading robotic process automation (RPA) platform, helps the Bank of Montreal (BMO) modernise operations. I started with a vendor scan, comparing UiPath to competitors such as Microsoft Power Automate, Automation Anywhere, and Blue Prism, and summarised why UiPath holds a leading market share in RPA and strong analyst recognition. :contentReferenceoaicite:2\n\n\nProblem & Solution\nBMO faced:\n\nHeavy manual workloads in compliance reporting, transaction monitoring, and testing\n\nHigh operational costs and slower turnaround times\n\nFragmented legacy systems across different jurisdictions\n\nWorking with UiPath and Deloitte, BMO built an Automation Centre of Excellence (CoE) and deployed unattended and attended bots for processes like loan origination, KYC/AML checks, and reporting. Bots were orchestrated via UiPath Studio and Orchestrator, integrated with Microsoft 365, Oracle, and internal banking systems. :contentReferenceoaicite:3\n\n\nImpact\nThe case highlighted how automation:\n\nDelivered millions of dollars in value through labour savings and cost avoidance\n\nAchieved 20–60% productivity improvements in some credit and back-office workflows\n\nReduced error rates and improved compliance audit trails\n\nFreed employees to focus on more analytical and customer-facing work\n\n📄 View full report"
-  },
-  {
-    "objectID": "projects.html#in-progress-future-projects",
-    "href": "projects.html#in-progress-future-projects",
-    "title": "Projects & Case Studies",
-    "section": "🌱 In-Progress & Future Projects",
-    "text": "🌱 In-Progress & Future Projects\n\nI am continuing to add new work from courses such as marketing, HR analytics, and data-driven decision making. Upcoming additions may include:\n\nA digital marketing campaign analysis for a streaming platform\n\nAn HR analytics/LLM project on inclusion and policy drafting\n\nA value stream mapping exercise for a service environment\n\nAs my MBA progresses, this page will grow into a mini “project library” that shows how my skills evolve over time."
-  },
-  {
-    "objectID": "landing.html",
-    "href": "landing.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "&lt;img src=\"files/choki.jpg\" alt=\"Choki Lhamo\"&gt;\n\n\n\nChoki Lhamo\n\n\n\nMBA Candidate • Digital Transformation • Marketing • Operations\n\n\n\n&lt;a href=\"index.qmd\"&gt;Home&lt;/a&gt;\n&lt;a href=\"resume.qmd\"&gt;Resume&lt;/a&gt;\n&lt;a href=\"projects.qmd\"&gt;Projects&lt;/a&gt;\n&lt;a href=\"skills.qmd\"&gt;Skills&lt;/a&gt;\n&lt;a href=\"contact.qmd\"&gt;Contact&lt;/a&gt;"
+    "objectID": "index.html#explore-my-portfolio",
+    "href": "index.html#explore-my-portfolio",
+    "title": "Home",
+    "section": "Explore My Portfolio",
+    "text": "Explore My Portfolio\nReady to take a closer look? Start here:\n\nView my Resume – Education, experience, and core strengths\n\nExplore Projects – Selected MBA case studies and assignments\n\nSkills & Tools – Business, analytical, and digital capabilities\n\nContact Me – Let’s connect about roles or collaborations"
   }
 ]

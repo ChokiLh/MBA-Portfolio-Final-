@@ -1,16 +1,37 @@
+/* ----------------------------------------------------
+   OPTION B — Rose + Mauve + Berry Aesthetic Theme
+   With Hover Effects + Animated Avatar Glow + Fade-In
+----------------------------------------------------- */
+
 /* -------------------------------------------
-   Global Color Palette (inspired by your photo)
+   Color Palette
 -------------------------------------------- */
 :root {
-  /* Autumn / sunset tones */
-  --accent-orange: #e58633;
-  --accent-gold:   #f2b754;
-  --accent-olive:  #b7b26a;
-  --accent-deep:   #7c3f3a;
+  --rose: #d88fa8;        /* Soft Rose */
+  --mauve: #b57ab4;       /* Mauve / lilac */
+  --berry: #7a3e65;       /* Deep Berry */
+  --cream: #fff7fb;       /* Soft off-white */
+  --card-bg: #ffffff;
+  --shadow: rgba(0,0,0,0.08);
+}
 
-  --bg-soft:       #fff8f0;
-  --card-bg:       #ffffff;
-  --card-shadow:   rgba(0, 0, 0, 0.08);
+/* -------------------------------------------
+   Smooth Scroll
+-------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------------------------------
+   Fade-In Animation
+-------------------------------------------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.9s ease-out;
 }
 
 /* -------------------------------------------
@@ -18,51 +39,51 @@
 -------------------------------------------- */
 body {
   font-family: system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: var(--bg-soft);
-  line-height: 1.6;
+  background-color: var(--cream);
+  line-height: 1.65;
   padding-bottom: 3rem;
+  color: #333;
 }
 
 /* -------------------------------------------
-   Navbar – gradient bar with white text
+   Navbar (Rose ➜ Mauve Gradient)
 -------------------------------------------- */
 .navbar {
   background-image: linear-gradient(
     to right,
-    var(--accent-orange),
-    var(--accent-gold),
-    var(--accent-olive)
+    var(--rose),
+    var(--mauve)
   ) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-  color: #ffffff !important;
+  color: #fff !important;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: .03em;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #fffde7 !important;
+  color: #ffeef8 !important;
 }
 
 /* -------------------------------------------
    Headings
 -------------------------------------------- */
 h1, h2, h3, h4 {
-  color: var(--accent-deep);
+  color: var(--berry);
   font-weight: 700;
 }
 
 h2 {
-  margin-top: 1.8rem;
-  border-left: 5px solid var(--accent-orange);
+  margin-top: 2rem;
+  border-left: 5px solid var(--rose);
   padding-left: 10px;
 }
 
 /* -------------------------------------------
-   Landing Page Card (Martin Boehme style)
+   Landing Page Card
 -------------------------------------------- */
 
 .landing-wrapper {
@@ -75,28 +96,20 @@ h2 {
   max-width: 720px;
   width: 100%;
   background-color: var(--card-bg);
-  border-radius: 18px;
-  box-shadow: 0 8px 24px var(--card-shadow);
-  padding: 2.2rem 2.6rem 2.4rem;
+  border-radius: 22px;
+  box-shadow: 0 8px 24px var(--shadow);
+  padding: 2.4rem 2.8rem;
   text-align: center;
 }
 
-.landing-header {
-  margin-bottom: 1.2rem;
-}
+/* -------------------------------------------
+   Avatar with Glow Animation
+-------------------------------------------- */
 
-.landing-name {
-  font-size: 2.2rem;
-  margin: 0;
-  color: var(--accent-deep);
-}
-
-.landing-tagline {
-  margin: 0.35rem 0 0;
-  color: #666666;
-  font-size: 0.98rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+@keyframes pulseGlow {
+  0%   { box-shadow: 0 0 0px rgba(181, 122, 180, 0.35); }
+  50%  { box-shadow: 0 0 22px rgba(181, 122, 180, 0.55); }
+  100% { box-shadow: 0 0 0px rgba(181, 122, 180, 0.35); }
 }
 
 .landing-avatar-wrap {
@@ -104,74 +117,92 @@ h2 {
 }
 
 .landing-avatar {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  border: 4px solid #ffffff;
+  border: 4px solid #fff;
+  animation: pulseGlow 3.2s ease-in-out infinite;
+}
+
+/* -------------------------------------------
+   Titles + Tagline
+-------------------------------------------- */
+.landing-name {
+  font-size: 2.3rem;
+  margin: 0;
+  color: var(--berry);
+  font-weight: 800;
+}
+
+.landing-tagline {
+  margin-top: .4rem;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--mauve);
 }
 
 .landing-intro {
   max-width: 540px;
-  margin: 0 auto 1.8rem;
-  color: #444444;
-  font-size: 1.02rem;
+  margin: 1rem auto 2rem;
+  color: #444;
+  font-size: 1.08rem;
 }
 
-/* Pill-style links under the avatar */
+/* -------------------------------------------
+   Portfolio Links (Pill Style)
+-------------------------------------------- */
 .landing-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.6rem;
+  gap: .7rem;
 }
 
 .landing-pill {
   display: inline-block;
-  padding: 0.45rem 1rem;
+  padding: 10px 20px;
   border-radius: 999px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background-color: #fafafa;
-  color: #444444;
-  font-size: 0.95rem;
   text-decoration: none;
-  transition: background-color 0.18s ease, transform 0.18s ease,
-              box-shadow 0.18s ease;
+  font-weight: 600;
+  background-color: var(--rose);
+  color: #fff;
+  transition: 0.25s ease;
 }
 
 .landing-pill:hover {
-  background-color: #fff4e3;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 10px var(--card-shadow);
+  background-color: var(--berry);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0px 4px 12px rgba(122, 62, 101, 0.3);
 }
 
 /* -------------------------------------------
-   Project Cards (if you use them)
+   Project Cards
 -------------------------------------------- */
 .project-card {
   background: var(--card-bg);
-  padding: 1.4rem 1.6rem;
+  padding: 1.4rem 1.7rem;
   margin-bottom: 1.6rem;
-  border-radius: 14px;
-  box-shadow: 0 3px 10px var(--card-shadow);
-  border-left: 6px solid var(--accent-orange);
+  border-radius: 16px;
+  box-shadow: 0 3px 10px var(--shadow);
+  border-left: 6px solid var(--rose);
 }
 
 /* -------------------------------------------
-   Responsive tweaks
+   Responsive
 -------------------------------------------- */
 @media (max-width: 640px) {
   .landing-card {
-    padding: 1.8rem 1.4rem 2rem;
+    padding: 2rem 1.3rem;
+  }
+
+  .landing-avatar {
+    width: 130px;
+    height: 130px;
   }
 
   .landing-name {
     font-size: 1.9rem;
-  }
-
-  .landing-avatar {
-    width: 120px;
-    height: 120px;
   }
 }

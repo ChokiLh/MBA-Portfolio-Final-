@@ -1,9 +1,10 @@
 project:
   type: website
+  output-dir: docs 
 
 execute:
   enabled: false    
-  
+
 website:
   title: "Choki Lhamo – MBA Portfolio"
   navbar:
